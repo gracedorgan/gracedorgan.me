@@ -19,6 +19,10 @@
   background: #55ACEE;
   color: white;
 }
+
+.fa-laptop{
+  color:white;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -31,6 +35,9 @@ ul{
 }
 .topbar{
   display:flex;
+  height:46px;
+  align-items: center;
+  padding:0 10px;
 }
 .laptop_icon{
   margin-right: auto;
