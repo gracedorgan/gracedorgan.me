@@ -29,6 +29,11 @@ body{
   padding: 0;
 
 }
+.row-container{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
 ul{
   list-style-type: none;
   padding: 0;
