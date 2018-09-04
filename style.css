@@ -43,6 +43,5 @@ ul{
   margin-right: auto;
 }
 .bg{
-background-image: url(/images/green_landscape.jpg);
-  background-size: cover;
+background-color:white;
 }
