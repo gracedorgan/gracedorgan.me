@@ -1,58 +1,67 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <title>gracedorgan.me</title>
-  <meta name="description" content="Grace Dorgan is a Computer Science student at Dartmouth college. "
-</head>
-
-<body>
-  <div class = "bg">
-    <nav>
-      <ul class="topbar">
-        <!-- <li class="laptop_icon"><i class="fas fa-laptop"></i></li>
-        <li><a href="#">Me</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Contact Us</a></li> -->
-      </ul>
-      </nav>
-      <header>
-        <h1>Grace Dorgan, Big Nerd</h1>
-      </header>
-      <div class='row-container'>
-        <div class='first-links'>
-          <h1>Links Heading</h1>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-          </ul>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width">
+    <meta name="description" content="Grace Dorgan's personal website, keywords, Dartmouth Student, Computer Science Major">
+    <meta name="author" content="Grace Dorgan">
+    <title>Grace Dorgan | Welcome</title>
+    <link rel ="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class ="highlight">Grace</span> Dorgan</h1>
         </div>
-          <div class ='second-links'>
-            <h1>Links Heading</h1>
-            <ul>
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-            </ul>
-          </div>
-          <div class ='third-links'>
-            <h1>Links Heading</h1>
-            <ul>
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-            </ul>
-          </div>
-      </div>
-        <footer>
-          <img style="float:right" src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwic3_mcze_cAhWpVt8KHceQDUYQjRx6BAgBEAU&url=https%3A%2F%2Ficons8.com%2Ficon%2F434%2Ffacebook&psig=AOvVaw2KLfvSefkqXIM8jYDYkWgy&ust=1534441241501843" height="25" width="25">
+        <nav>
           <ul>
-            <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
           </ul>
-</div>
-      </body>
-      </html>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Grace Dorgan</h1>
+        <p>Computer Science Major at Dartmouth, purveyor of fine code, big nerd </p>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <form method="GET" action="mailto:Grace.M.Dorgan.21@dartmouth.edu">
+          <input type="submit" class="button_1" value="Email Me">
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class ="container">
+        <div class="box">
+          <img src="./images/eye.jpg">
+          <h3>Eyes</h3>
+          <p>For reading code</p>
+        </div>
+        <div class="box">
+          <img src="./images/ear.jpg">
+          <h3>Ears</h3>
+          <p>For listening to people talking about code</p>
+        </div>
+        <div class="box">
+          <img src="./images/hand.jpg">
+          <h3>Hands</h3>
+          <p>For typing code</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p> Grace Dorgan, Copyright &copy; 2018 </p>
+    </footer>
+
+
+  </body>
+</html>

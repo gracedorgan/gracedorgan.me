@@ -1,0 +1,220 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#fafafa;
+}
+/*Global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#97bbf4;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#2f5593;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.accent{
+  padding:15px;
+  background:#97bbf4;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*non-global*/
+header{
+  background:#2f5593;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height:70px;
+  border-bottom:#97bbf4 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header#branding{
+  float:left;
+
+}
+
+header#branding h1{
+  margin: 0;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #97bbf4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+/*Showcase*/
+
+#showcase{
+  min-height: 400px;
+  background:url('../images/rsz_showcase.jpg') no-repeat 0 -600px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size: 55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/*newsletter*/
+
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #2f5593;
+}
+
+#newsletter h1{
+  float:left;
+}
+#newsletter form{
+  float:float;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/*boxes*/
+#boxes{
+  margin-top:20px;
+
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/*sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/*article main*/
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+ul#projects li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background:#e6e6e6;
+}
+
+#linkedin{
+  padding-top: 55px;
+}
+#linkedin img{
+  width:90px;
+}
+
+#github img{
+  width:90px;
+}
+#github{
+  padding-top: 55px;
+}
+/*linked in*/
+.fa-linkedin{
+  background: #007bb5;
+  color: #ffffff;
+}
+
+/*aboutme*/
+#profpic img{
+  width:160px;
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border-color: #2f5593;
+  border-radius: 2px;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color: #97bbf4;
+  text-align: center;
+}
