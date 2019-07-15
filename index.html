@@ -1,67 +1,132 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content ="width=device-width">
-    <meta name="description" content="Grace Dorgan's personal website, keywords, Dartmouth Student, Computer Science Major">
-    <meta name="author" content="Grace Dorgan">
-    <title>Grace Dorgan | Welcome</title>
-    <link rel ="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class ="highlight">Grace</span> Dorgan</h1>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grace Dorgan</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script src="https://kit.fontawesome.com/fe5146bd8d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Space+Mono&display=swap" rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script>
+    </script>
+</head>
+
+<body>
+    <!----- HEADER START--->
+    <header id="header">
+        <div class="content">
+            <div id="logo"><a href=""> grace dorgan </a></div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#slide1" class="active" title="Next Section">intro</a></li>
+                    <li><a href="#slide2" title="Next Section">about</a></li>
+                    <li><a href="#slide3" title="Next Section">projects</a></li>
+                    <li><a href="#slide4" title="Next Section">contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
-
-    <section id="showcase">
-      <div class="container">
-        <h1>Grace Dorgan</h1>
-        <p>Computer Science Major at Dartmouth, purveyor of fine code, big nerd </p>
-      </div>
-    </section>
-    <section id="newsletter">
-      <div class="container">
-        <form method="GET" action="mailto:Grace.M.Dorgan.21@dartmouth.edu">
-          <input type="submit" class="button_1" value="Email Me">
-        </form>
-      </div>
-    </section>
-
-    <section id="boxes">
-      <div class ="container">
-        <div class="box">
-          <img src="./images/eye.jpg">
-          <h3>Eyes</h3>
-          <p>For reading code</p>
+    <!----- SLIDES START --->
+    <div id="slide1">
+        <div class="content">
+            <div id="christmas_tree"> 
+                    <img src="img/sheep_icon.png" align="center" />
+            </div>
+            <h2>BIG</h2>
+            <h1>NERD</h1>
+            <div id="divider"> </div>
+            <h3>PURVEYOR OF FINE CODE </h3>
+            <div id="ribbon"></div>
+            <div id="new_year"> </div>
         </div>
-        <div class="box">
-          <img src="./images/ear.jpg">
-          <h3>Ears</h3>
-          <p>For listening to people talking about code</p>
+    </div>
+    <div id="slide2">
+        <div class="content">
+            <div class="about_container">
+                <div id="profpic">
+                    <img src="img/prof_pic.jpg" align="left" />
+                </div>
+                <p>I am a computer science major at Dartmouth, with a motley assortment of interest, activities, and
+                    goals. Computer science is the root of my personality (dorky) and the source of my aspirations
+                    (lofty) since I was 10 and first realized that someone knew how to make computers and tell them what
+                    to do, even if I wasn't sure how. Sometimes I'm still not sure how. Luckily, I can, and will, learn.
+                    I like to focus on continual, fast-paced improvement of my skills without focusing too much on
+                    failure. I strive to not only be a better programmer, but also a better person. After all, why
+                    wouldn't you be both?</p>
+            </div>
         </div>
-        <div class="box">
-          <img src="./images/hand.jpg">
-          <h3>Hands</h3>
-          <p>For typing code</p>
+    </div>
+    <div id="slide3">
+        <div class="content">
+            <div class="quotes_container">
+                <ul id="projects">
+                    <li>
+                        <h3>Tiny Search Engine</h3>
+                        <p>Software Design and Implementation</p>
+                        <p> Used BASH scripts, Linux and Vim to write and test custom Set, Bag, and Hashtable data
+                            structures written in C to make an Index structure linking webpages and key words. The
+                            crawler, indexer and user interface components of the search engine successfully worked
+                            together to make a working search engine when used on a “closed loop” of linked pages
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Parts of Speech Recognizer</h3>
+                        <p>Data Structures and Algorithms</p>
+                        <p>Utilized a hidden Markov model, a Viterbi algorithm and the Brown corpus to build a program
+                            in Java that parsed sentences and tagged each word as a part of speech (verb, noun, etc)</p>
+                    </li>
+                    <li>
+                        <h3>Vibes (app)</h3>
+                        <p>Web Design and Development</p>
+                        <p>A mobile app for creating location-based collaborative playlists. Built with a team of four
+                            other women. We used the spotify API, Axios, Redux, React Native, mongoDB, JWT, passport,
+                            and Babel to make it all
+                            work.</p>
+                    </li>
+                    <li>
+                        <h3>Google Vision Accuracy Test</h3>
+                        <p>Personal Project</p>
+                        <p>A mostly frontend web app that lets users go through a dataset generated by google vision's
+                            photo tagging api and assess accuracy. I used React, Redux, Babel, Axios, and a little bit
+                            of the Google Vision API to populate my database.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </section>
+    </div>
+    <div id="slide4">
+        <div class="content">
+            <div class="quotes_container">
+                <h3 id="connect">let's connect </h3>
+                <div id="icons">
+                    <a href="mailto:gracedorgan@gmail.com?Subject=Hi%20Grace!">
+                        <i class="fas fa-envelope fa-2x" style="color: black"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gracedorgan/">
+                        <i class="fab fa-linkedin-in fa-2x" style="color: black"></i>
+                    </a>
+                    <a href="https://github.com/gracedorgan">
+                        <i class="fab fa-github fa-2x" style="color: black"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="slide5">
+        <div class="content">
+            <div class="quotes_container">
+                <h3 class="quotes">“In the future, computers may weigh no more than 1.5 tonnes.” </h3>  
+                <h4 class="author_name_white">Popular Mechanics, 1949 </h4>
+            </div>
+            <div id="copyright"> © Grace Dorgan, 2019 </div>
+        </div>
+    </div>
+    <!----- SLIDES END --->
+</body>
 
-    <footer>
-      <p> Grace Dorgan, Copyright &copy; 2019 </p>
-    </footer>
-
-
-  </body>
 </html>
