@@ -77,16 +77,77 @@ ul#projects li {
 
 #header {
     width: 100%;
-    background: url('../img/header-bg.png');
+    background-color: rgb(54,54,54);
     height: 80px;
     position: fixed;
     margin-top: 30px;
+    z-index: 500;
 }
 
 #nav {
     width: 410px;
     float: right;
     margin-top: 20px;
+}
+
+#nav1 {
+    width: 410px;
+    float: right;
+    margin-top: 20px;
+}
+
+.img-container{
+    display:flex;
+    height:500px;
+    width:100%;
+    justify-content: space-around;
+}
+.white-space{
+    height:20vh;
+    width:100%;
+}
+.main-container{
+    display:flex;
+    height:200vh;
+    width:100%;
+    flex-direction: column;
+    background-color: #333333;
+}
+.text-container{
+    display:flex;
+    flex-direction:column;
+    height:70vh;
+    margin:0;
+    width:100%;
+    background-color: #333333;
+}
+.white-text{
+    color:white;
+}
+.project-titles{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    margin:0;
+    width:100%;
+    background-color: #333333;
+}
+.mockup{
+    /* position: absolute; */
+    height: 400px;
+    top: 0;
+    right: 28%;
+}
+.lc-mockup{
+    /* position: absolute; */
+    height: 500px;
+    top: 0;
+    right: 28%;
+}
+
+#project-header{
+    display:flex;
+    flex-direction: row;
 }
 
 #logo a {
@@ -99,7 +160,22 @@ ul#projects li {
     font-family: 'Space Mono', monospace;
     font-weight: bold;
 }
-
+h1.project-title{
+    font-size: 45px;
+    font-family: 'Space Mono', monospace;
+    color: black;   
+}
+h2.project-subtitle{
+    font-size: 30px;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+}
+a.text-link{
+    color:white;
+}
+a.text-link:visited{
+    color:rgb(255, 213, 255);
+}
 #nav ul {
     list-style: none;
     display: block;
@@ -204,7 +280,7 @@ ul#projects li {
 #slide1 {
     background: url('../img/showcase.JPG') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 100vh;
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
